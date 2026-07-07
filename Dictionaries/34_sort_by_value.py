@@ -1,0 +1,8 @@
+# Program 34
+# Sort Dictionary by Value
+
+d = {"a": 3, "b": 1, "c": 2}
+print(dict(sorted(d.items(), key=lambda x: x[1])))
+
+# Output:
+# {'b': 1, 'c': 2, 'a': 3}
